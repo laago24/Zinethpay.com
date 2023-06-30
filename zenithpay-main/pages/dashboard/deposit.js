@@ -31,14 +31,14 @@ const CRYPRO_PAYMENT_DETAILS = [
   {
     id: 1,
     name: "Bitcoin",
-    address: "bc1qm60kwq7xeem2d2sw0akwtn4kmz2a8v3sduzs62",
+    address: "1Mi3ktZHCFpYRdB2KxquJyWW9RgtbTuGUe",
     icon: <Icon as={FaBitcoin} w={16} h={16} color="goldenrod" />,
   },
 
   {
     id: 2,
     name: "Ethereum (ERC-20)",
-    address: "0x7BAc193374fEA22ed94E8261157698aE6E88D5E0",
+    address: "0x97dae7e0ebc1424056c41a095c4dcb2de4d46c7b",
     icon: <Icon as={FaEthereum} w={16} h={16} color="black" />,
   },
 ];
@@ -174,7 +174,7 @@ function Deposit() {
             <Flex w={16} h={16} align={"center"} justify={"center"} mb={1}>
               <Image src={usdt} alt=""/>
             </Flex>
-            <Text>USDT (ERC-20)</Text>
+            <Text>USDT (Ethereum ERC-20)</Text>
             <Button
               variant="solid"
               colorScheme="yellow"
