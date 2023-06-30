@@ -1,0 +1,52 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+}
+
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/iJWKBXyIfDnIV7nBrXw.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Rubik';
+}
+
+#hero {
+  /* background: url(../assets/images/banner.jpg) no-repeat center; */
+  background-size: cover;
+  background-color: black;
+}
+
+#stats {
+  background: url(../assets/images/banner.jpg) no-repeat center;
+  background-size: cover;
+  background-color: black;
+}
+
+#features {
+  /* background: url(../assets/images/miningplace_img.jpg) no-repeat center; */
+  background-size: cover;
+  position: relative;
+}
+
+#about, #contact, #faq {
+  background: url(../assets/images/miningplace_img.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 139, 0.308);
+  /* opacity: 0; */
+  color: white;
+  /* Black background with opacity */
+  z-index: 2;
+  position: absolute;
+}
